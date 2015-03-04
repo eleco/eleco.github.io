@@ -1,0 +1,47 @@
+
+name: eleco 
+
+description: Full stack software developer from London
+
+
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: eleco
+  instagram:
+  linkedin:
+  pinterest:
+  rss:  
+  twitter: 
+  stackoverflow: 
+  youtube: 
+
+disqus: elecodisq
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+url: http://eleco.github.io
+
+baseurl: ""
+
+
+markdown: redcarpet
+highlighter: pygments
+permalink: /:title/
+
+version: v1.1.0
+
+sass:
+  style: :expanded 
+
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
