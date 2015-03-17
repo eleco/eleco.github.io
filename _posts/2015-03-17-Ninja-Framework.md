@@ -3,8 +3,6 @@ layout: post
 title: Migrating from Play to the Ninja Framework
 ---
 
-The PlayFramework
------------------
 
 The PlayFramework has long been my framework of choice. It stands out in the crowded space of jvm web frameworks in particular because it is (relatively) lightweight, with a short learning curve, and a focus on ease of testing both at the unit and functional level.
 
@@ -44,7 +42,8 @@ This is fairly easy, largely due to the near identical API. Amongst the salient 
 
 5. some of the properties in the application.conf may differ from Play to Ninja - no shortcut here they have to be analysed on a case by case basis.
 
-6. (the best part) remove the scala plugin, delete Build.scala, plugins.sbt. Watch your compilation time plummet.
+6. (the best part) remove the scala cruft: scala plugin, delete Build.scala, plugins.sbt. 
 
-Enjoy.
+7. Watch your compilation time plummet. Enjoy.
+
 
