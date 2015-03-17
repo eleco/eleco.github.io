@@ -21,8 +21,8 @@ In other words the Scala roots of the framework are leaking. These are little an
 The Ninja Framework
 -------------------
 
+<a href=""><img src="/images/Ninja_The_Last_Thing_You_See.jpg" align="middle" height="258" width="348" ></a>
 
-![ninja](http://pixabay.com/en/ninja-fighter-japanese-samurai-152415)
 
 The Ninja framework is heavily inspired by Play, with the same focus on simplicity and performance, the same functionality (at a basic level at least i.e both frameworks provide routers, controllers,filters...). The API is also very familiar. 
 
