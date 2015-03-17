@@ -22,7 +22,7 @@ The Ninja Framework
 -------------------
 
 
-![ninja]: http://de.wikipedia.org/wiki/Ninja#/media/File:Ninja_The_Last_Thing_You_See.jpg
+![ninja](http://de.wikipedia.org/wiki/Ninja#/media/File:Ninja_The_Last_Thing_You_See.jpg)
 
 The Ninja framework is heavily inspired by Play, with the same focus on simplicity and performance, the same functionality (at a basic level at least i.e both frameworks provide routers, controllers,filters...). The API is also very familiar. 
 
