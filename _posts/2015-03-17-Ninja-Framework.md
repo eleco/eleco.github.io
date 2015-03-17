@@ -3,6 +3,9 @@ layout: post
 title: The Ninja Framework
 ---
 
+The PlayFramework
+=================
+
 The PlayFramework has long been my framework of choice. It stands out in the crwoded space of jvm web frameworks because:
 
 - it is (relatively) lightweight
@@ -17,6 +20,10 @@ So far so good. However. The core logic of the framework is mostly written in Sc
 - long build times, curtesy of the Scala compiler
 
 These little annoyances are not deal breaking but they do add up, so much so that at times this negates the productivity bonuses brought on by the framework.
+
+
+The Ninja Framework
+===================
 
 The Ninja framework is heavily inspired by Play, with the same focus on simplicity and performance, the same functionality (at a basic level at least i.e both frameworks provide routers, controllers,filters...). The API is also very familiar. 
 
