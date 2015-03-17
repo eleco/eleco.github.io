@@ -42,7 +42,7 @@ This is fairly easy, largely due to the near identical API. Amongst the salient 
 
 5. some of the properties in the application.conf may differ from Play to Ninja - no shortcut here they have to be analysed on a case by case basis.
 
-6. (the best part) remove the scala cruft: scala plugin, delete Build.scala, plugins.sbt. 
+6. (the best part) remove the scala cruft: scala plugin, build.scala, plugins.sbt, activators...
 
 7. Watch your compilation time plummet. Enjoy.
 
