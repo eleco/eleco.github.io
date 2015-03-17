@@ -24,7 +24,7 @@ The Ninja Framework
 
 [The Ninja framework](http://www.ninjaframework.org) is heavily inspired by Play, with the same focus on simplicity and performance, the same functionality (at a basic level at least i.e both frameworks provide routers, controllers,filters...). The API is also very similar. 
 
-Above all this is a pure Java (no Scala) framework so it removes all of the concerns highlighted above. Plus it has a cool name. So all in all  it's an easy tradeoff.
+Above all this is a pure Java (no Scala) framework so it removes all of the concerns highlighted above. Plus it has a cool name :smirk:. So all in all  it's an easy tradeoff.
 
 
 Migrating from Play to Ninja 
