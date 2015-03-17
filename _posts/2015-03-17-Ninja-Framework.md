@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Ninja Framework
+title: Migrating from Play to the Ninja Framework
 ---
 
 The PlayFramework
