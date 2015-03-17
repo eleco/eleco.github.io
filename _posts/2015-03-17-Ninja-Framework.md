@@ -3,7 +3,6 @@ layout: post
 title: The Ninja Framework
 ---
 
-
 The PlayFramework has long been my framework of choice. It stands out in the crwoded space of jvm web frameworks because:
 
 - it is (relatively) lightweight
@@ -13,13 +12,9 @@ The PlayFramework has long been my framework of choice. It stands out in the crw
 So far so good. However. The core logic of the framework is mostly written in Scala, and it shows:
 
 - view templates have to be scripted using Scala
-
 - the build tooling uses SBT instead of the Maven/Gradle alternatives favored by the majority of Java projects
-
 - a Scala/SBT plugin is required to compile the code in Intellij and Eclipse. Can be fidly to setup.
-
-- long build times curtesy of the Scala compiler
-- 
+- long build times, curtesy of the Scala compiler
 
 These little annoyances are not deal breaking but they do add up, so much so that at times this negates the productivity bonuses brought on by the framework.
 
