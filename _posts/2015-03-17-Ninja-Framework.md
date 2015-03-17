@@ -36,9 +36,9 @@ This is fairly easy, largely due to the near identical API. Amongst the salient 
 
 2. setup your project as a Maven project. In Intellij this is done with a right-click on the pom above and select "Add as a Maven project"
 
-3. replace all of the play.* imports by their equivalents ninja.
+3. replace all of the play.* imports by their equivalents ninja.*
 
-4. create a Java class to host the route configuration (this is a property file in Play)
+4. create a Java class to host the route configuration (instead of a property file in Play)
 
 5. some of the properties in the application.conf may differ from Play to Ninja - no shortcut here they have to be analysed on a case by case basis.
 
