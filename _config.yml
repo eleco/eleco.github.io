@@ -28,6 +28,7 @@ url: http://eleco.github.io
 
 baseurl: ""
 
+rss_post_limit: 15
 
 markdown: redcarpet
 highlighter: pygments
