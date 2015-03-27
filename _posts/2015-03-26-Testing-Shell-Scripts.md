@@ -5,8 +5,8 @@ title: Testing shell scripts
 
 This [story] (https://bugzilla.redhat.com/show_bug.cgi?id=1202858) highlights the potential dire consequences of undefined variables in Shell scripts.
 In a nutshell this command: 
-{% highlight java %}
-`rm -rf "$VAR/ *` , 
+{% highlight %}
+rm -rf "$VAR/ * 
 {% endhighlight %}
 when executed with $VAR left undefined, then becomes `rm -rf *`, and will delete all files in the current directory and subdirectories. oops.
 
