@@ -9,7 +9,7 @@ In a nutshell this command:
 rm -rf "$VAR/ * 
 {% endhighlight %}
 when executed with $VAR left undefined, then becomes 
-{% highlight %} rm -rf * {% endhighlight %}
+{% highlight java %} rm -rf * {% endhighlight %}
 
 , and will delete all files in the current directory and subdirectories. oops.
 
