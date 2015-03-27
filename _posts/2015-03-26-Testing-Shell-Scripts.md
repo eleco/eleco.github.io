@@ -13,7 +13,7 @@ is intended to delete all files under the $VAR directory. However if $VAR is lef
 
 `rm -rf *` 
 
-... which will delete all files in the current directory and subdirectories. oops.
+... which will delete all files in the **current directory** and subdirectories. oops.
 
 
 It's somewhat paradoxical that Shell scripts are frequently used to drive mission-critical activities such as starting/stopping processes,
