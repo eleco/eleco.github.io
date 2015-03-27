@@ -4,13 +4,14 @@ title: Testing shell scripts
 ---
 
 This [story] (https://bugzilla.redhat.com/show_bug.cgi?id=1202858) highlights the potential dire consequences of undefined variables in Shell scripts.
-In a nutshell this command: 
+
+In sumary this command: 
 `rm -rf "$VAR/ *` 
 
-when executed with $VAR left undefined, then becomes 
+is intended to delete all files under the $VAR directory. However if $VAR is left undefined, then what is executed is: 
 `rm -rf *` 
 
-... and will delete all files in the current directory and subdirectories. oops.
+... which will delete all files in the current directory and subdirectories. oops.
 
 
 It's somewhat paradoxical that Shell scripts are frequently used to drive mission-critical activities such as starting/stopping processes,
