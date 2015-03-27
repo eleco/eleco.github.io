@@ -8,7 +8,10 @@ In a nutshell this command:
 {% highlight %}
 rm -rf "$VAR/ * 
 {% endhighlight %}
-when executed with $VAR left undefined, then becomes `rm -rf *`, and will delete all files in the current directory and subdirectories. oops.
+when executed with $VAR left undefined, then becomes 
+{% highlight %} rm -rf * {% endhighlight %}
+
+, and will delete all files in the current directory and subdirectories. oops.
 
 
 It's somewhat paradoxical that Shell scripts are frequently used to drive mission-critical activities such as starting/stopping processes,
