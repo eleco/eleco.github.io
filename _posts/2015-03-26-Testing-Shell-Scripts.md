@@ -7,7 +7,7 @@ This [story] (https://bugzilla.redhat.com/show_bug.cgi?id=1202858) highlights th
 
 In summary this command:
 
-`rm -rf "$VAR/ *` 
+`rm -rf "$VAR/" *` 
 
 is intended to delete all files under the $VAR directory. However if $VAR is left undefined, then what is executed is:
 
