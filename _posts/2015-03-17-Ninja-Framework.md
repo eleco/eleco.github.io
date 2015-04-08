@@ -4,16 +4,16 @@ title: Migrating from Play to the Ninja Framework
 ---
 
 
-[The PlayFramework](https://www.playframework.com/) has long been my framework of choice. It stands out in the crowded space of jvm web frameworks in particular because it is (relatively) lightweight, with a short learning curve, and a focus on ease of testing both at the unit and functional level.
+[The PlayFramework](https://www.playframework.com/)  has long been my framework of choice. It stands out in the crowded space of jvm web frameworks in particular because it is (relatively) lightweight, with a short learning curve, and a focus on ease of testing both at the unit and functional level.
 
-So far so good. However... The core logic of the framework (version 2 and up) is mostly written in Scala, and it shows:
+So far so good. However… The core logic of the framework (version 2 and up) is mostly written in Scala, and it shows:
 
 - view templates have to be scripted using Scala
 - the build tooling uses SBT instead of the Maven/Gradle alternatives favored by the majority of Java projects
 - a Scala/SBT plugin is required to compile the code in Intellij and Eclipse. Can be fidly to setup and fragile to run.
 - long build times, curtesy of the Scala compiler
 
-In other words the Scala roots of the framework are leaking. These are little annoyances (from the standpoint of a Java programmer who is not particularly interested in writing Scala code) and are not deal-breaking but...they do add up, so much so that at times this negates the productivity bonus brought on by the framework.
+These little annoyances do add up, so much so that at times this negates the productivity gains promised by the framework.
 
 
 The Ninja Framework
