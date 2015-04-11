@@ -5,7 +5,7 @@ title: Monitoring metrics with Netflix Servo
 
 Developing a metrics monitoring component seems simple, but deceptively so. 
 
-While adding a simple counter component is easy enough, more advanced functionalities (polling, filtering, exporting the results... ) are somewhat trickier to code. Also since the metrics must be read and written in parallel with the core application logic, the code must be multithreaded, which add another challenge: [concurrency is hard.] (http://blog.nirav.name/2011/03/why-concurrency-is-hard.html)
+While adding a simple counter component is easy enough, more advanced functionalities (polling, filtering, exporting the results... ) are somewhat trickier to code. Also since the metrics must be read and written in parallel with the core application logic, the code must be multithreaded, which adds another challenge: [concurrency is hard.] (http://blog.nirav.name/2011/03/why-concurrency-is-hard.html)
 
 So an in-house solution is doable, but will probably take at least a few days to develop, and that's assuming it's bug free.
 
