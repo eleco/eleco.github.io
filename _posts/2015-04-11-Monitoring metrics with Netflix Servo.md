@@ -19,7 +19,7 @@ The simple app below calculates as many prime numbers as possible for a specifie
 
 {% gist 71c084207c0a3b121dfc %}
 
-    <br>
+
 The metrics are automatically exposed via JMX so Java Mission Control can pick it up: 
 
 <a href=""><img src="/images/servo_mbeans.png"  ></a>
