@@ -1,4 +1,9 @@
 
+---
+layout: post
+title: Monitoring metrics with netflix servo
+---
+
 Developing a metrics monitoring component seems simple, and deceptively so. 
 
 Adding a simple counter component is easy enough, however more advanced functionalities (polling, filtering, exporting the results... ) are somewhat trickier to code. Also since
