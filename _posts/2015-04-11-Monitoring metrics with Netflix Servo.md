@@ -14,6 +14,7 @@ The alternative is to re-use existing libraries which neatly solve this problem 
 * [Netflix servo] (https://github.com/Netflix/servo)
 * [DropWizard metrics] (https://dropwizard.github.io/metrics/3.1.0/)
 
+&nbsp;
 
 Example: the java code below calculates as many prime numbers as possible for a specified period of time, and uses servo's counter and peak rate counter to keep track of the total number of primes discovered, and the maximum rates of primes discovered per second.
 
