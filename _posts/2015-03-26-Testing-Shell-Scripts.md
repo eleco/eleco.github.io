@@ -7,11 +7,15 @@ This [bug report] (https://bugzilla.redhat.com/show_bug.cgi?id=1202858) highligh
 
 In summary this command:
 
-`rm -rf "$VAR/" *` 
+```
+rm -rf "$VAR/" *
+``` 
 
 is intended to delete all files under the $VAR directory. However if $VAR is left undefined, then what is executed is:
 
-`rm -rf *` 
+```
+rm -rf *
+``` 
 
 ... which will delete all files in the **current directory** and subdirectories. oops.
 
@@ -31,18 +35,20 @@ Being at the mercy of a buggy shell script is not fun. Thanksfully there are way
  "-e" causes the script to terminate if any command fails.
  "-u" causes the script to terminate when it encounters an unbound variable.
 One additional line of code which will save lot of trouble... should be mandatory on top of every script.
-
+     
 - **Check if the variables are set before use**
 
-   `[[ "$VAR" ]] && rm -rf "$VAR/*"`
+   ```
+   [[ "$VAR" ]] && rm -rf "$VAR/*"
+   ```
 
    It's not foolproof though as it wont prevent failure due to typos in the variable name.
- 
+      
 - **Use a unit test framework**
 
  Yes shell scripts have their unit-test frameworks too, see [Roundup] (http://bmizerany.github.io/roundup/)
  or [ShUnit] (https://code.google.com/p/shunit2/). 
-
+     
 - **Use a (real) programming language**
 
   Drop the shell interpreter bash/zsh... and replace with Python, or Perl, or Groovy. Programming languages have much better support for functions,
