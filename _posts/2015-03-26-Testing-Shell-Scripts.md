@@ -3,7 +3,7 @@ layout: post
 title: Testing shell scripts
 ---
 
-This [story] (https://bugzilla.redhat.com/show_bug.cgi?id=1202858) highlights the potential dire consequences of undefined variables in Shell scripts.
+This [bug report] (https://bugzilla.redhat.com/show_bug.cgi?id=1202858) highlights the potential dire consequences of undefined variables in Shell scripts.
 
 In summary this command:
 
