@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Monitoring metrics with netflix servo
