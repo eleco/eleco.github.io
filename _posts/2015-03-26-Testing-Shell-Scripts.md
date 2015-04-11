@@ -36,6 +36,7 @@ Being at the mercy of a buggy shell script is not fun. Thanksfully there are way
  "-u" causes the script to terminate when it encounters an unbound variable.
 One additional line of code which will save lot of trouble... should be mandatory on top of every script.
      <br><br>
+     <br><br>
 - **Check if the variables are set before use**
 
    ```
@@ -44,10 +45,12 @@ One additional line of code which will save lot of trouble... should be mandator
 
    It's not foolproof though as it wont prevent failure due to typos in the variable name.
      <br><br>
+     <br><br>
 - **Use a unit test framework**
 
  Yes shell scripts have their unit-test frameworks too, see [Roundup] (http://bmizerany.github.io/roundup/)
  or [ShUnit] (https://code.google.com/p/shunit2/). 
+     <br><br>
      <br><br>
 - **Use a (real) programming language**
 
