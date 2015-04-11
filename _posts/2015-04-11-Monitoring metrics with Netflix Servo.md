@@ -27,7 +27,9 @@ counter to keep track of the total number and maximum rate of primes discovered.
 
 The metrics are automatically exposed via JMX so the Java mission control can be used to read and chart the resulting data.
 
-[servos pics]
+<a href=""><img src="/images/servo_charts.png" height="258" width="348" ></a>
+
+<a href=""><img src="/images/servo_mbeans.png" height="258" width="348" ></a>
 
 
 
