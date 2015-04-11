@@ -21,11 +21,15 @@ The simple app below calculates as many prime numbers as possible for a specifie
 {% gist 71c084207c0a3b121dfc %}
 
 
-The metrics are automatically exposed via JMX so Java Mission Control can pick it up and chart the resulting data.
+The metrics are automatically exposed via JMX so Java Mission Control can pick it up: 
+
+<a href=""><img src="/images/servo_mbeans.png"  ></a>
+
+...and chart the resulting data.
 
 <a href=""><img src="/images/servo_charts.png"  ></a>
 
-<a href=""><img src="/images/servo_mbeans.png"  ></a>
+
 
 
 
