@@ -22,7 +22,8 @@ Example
 This simple app calculates as many prime numbers as possible for a specified period of time, and uses servo's counter and peak rate 
 counter to keep track of the total number and maximum rate of primes discovered.
 
-https://gist.github.com/eleco/71c084207c0a3b121dfc
+{% gist 71c084207c0a3b121dfc %}
+
 
 The metrics are automatically exposed via JMX so the Java mission control can be used to read and chart the resulting data.
 
