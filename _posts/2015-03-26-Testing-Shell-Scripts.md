@@ -35,7 +35,7 @@ Being at the mercy of a buggy shell script is not fun. Thanksfully there are way
  "-e" causes the script to terminate if any command fails.
  "-u" causes the script to terminate when it encounters an unbound variable.
 One additional line of code which will save lot of trouble... should be mandatory on top of every script.
-     
+     <br><br>
 - **Check if the variables are set before use**
 
    ```
@@ -43,12 +43,12 @@ One additional line of code which will save lot of trouble... should be mandator
    ```
 
    It's not foolproof though as it wont prevent failure due to typos in the variable name.
-      
+     <br><br>
 - **Use a unit test framework**
 
  Yes shell scripts have their unit-test frameworks too, see [Roundup] (http://bmizerany.github.io/roundup/)
  or [ShUnit] (https://code.google.com/p/shunit2/). 
-     
+     <br><br>
 - **Use a (real) programming language**
 
   Drop the shell interpreter bash/zsh... and replace with Python, or Perl, or Groovy. Programming languages have much better support for functions,
