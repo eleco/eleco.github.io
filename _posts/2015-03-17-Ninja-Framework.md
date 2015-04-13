@@ -13,7 +13,7 @@ So far so good. However… The core logic of the framework (version 2 and up) is
 - a Scala/SBT plugin is required to compile the code in Intellij and Eclipse. Can be fidly to setup and fragile to run.
 - long build times, curtesy of the Scala compiler
 
-These little annoyances do add up, so much so that at times this negates the productivity gains promised by the framework.
+These little annoyances (from the point of view of a developer who's not particularly interested in Scala) do add up, so much so that at times this negates the productivity gains promised by the framework.
 
 
 The Ninja Framework
