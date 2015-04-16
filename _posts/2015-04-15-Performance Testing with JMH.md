@@ -14,9 +14,8 @@ micro-benchmark framework for Java comes into play.
 
 {% gist 4f7fe0b042efdd88fe95 %}
 
-
-
 And the results:
+    &nbsp;
     &nbsp;
 <a href=""><img src="/images/jmh_run.png" align="middle"  ></a>
 
