@@ -18,6 +18,7 @@ through the parameters and run all tests with each possible value: here both the
 
 
 And the results:
-<a href=""><img src="/images/jmh_run.png" align="middle" height="258" width="348" ></a>
+    
+<a href=""><img src="/images/jmh_run.png" align="middle"  ></a>
 
 
