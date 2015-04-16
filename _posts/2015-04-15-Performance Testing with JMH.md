@@ -8,8 +8,8 @@ title: Performance testing with JMH
 To do this we need a java performance harness, and this is where [JMH] (http://openjdk.java.net/projects/code-tools/jmh/) the 
 micro-benchmark framework for Java comes into play.
 
-* The JMH benchmark file below defines two simple benchmark tests: one test for Servo's counter increment method and the other for the maxgauge update method. 
-* The warmup phase, number of iterations and forks are all configurable via JMH Java's api. 
+* The JMH benchmark file below defines two simple benchmark tests: one test for Servo's counter increment method and the other for the maxgauge update method. <br>&nbsp;<br>
+* The warmup phase, number of iterations and forks are all configurable via JMH Java's api. <br>&nbsp;<br>
 * A nice touch is the ability to specifiy a set of possible parameters directly in the code via the @Param annotation. JMH will cycle through the parameters and run all tests with each possible value: here both the counter and maxgauge will be tested twice, once with object registration turned on, and a second time with object registration turned off.
 
 {% gist 4f7fe0b042efdd88fe95 %}
