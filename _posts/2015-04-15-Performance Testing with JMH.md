@@ -16,7 +16,9 @@ micro-benchmark framework for Java comes into play.
 
 And the results:
     &nbsp;
+
+<a href="">
     &nbsp;
-<a href=""><img src="/images/jmh_run.png" align="middle"  ></a>
+<img src="/images/jmh_run.png" align="middle"  ></a>
 
 
