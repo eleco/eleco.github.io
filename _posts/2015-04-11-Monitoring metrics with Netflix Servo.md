@@ -16,7 +16,7 @@ The alternative is to re-use existing libraries which neatly solve this problem 
 
 &nbsp;
 
-Example: the java code below calculates as many prime numbers as possible for a specified period of time, and uses servo's counter and peak rate counter to keep track of the total number of primes discovered, and the maximum rate of primes discovered per second.
+Example: the java code below calculates as many prime numbers as possible for a specified period of time, and uses Servo's counter and peak rate counter to keep track of the total number of primes discovered, and the maximum rate of primes discovered per second.
 
 {% gist 71c084207c0a3b121dfc %}
 
